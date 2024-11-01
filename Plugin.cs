@@ -9,7 +9,7 @@ namespace GorillaTagModTemplateProject
 	/// This is your mod's main class.
 	/// </summary>
 
-	/* This attribute tells Utilla to look for [ModdedGameJoin] and [ModdedGameLeave] */
+	
 	
 	[BepInDependency("org.legoandmars.gorillatag.utilla", "1.5.0")]
 	[BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
@@ -22,6 +22,7 @@ namespace GorillaTagModTemplateProject
             /* A lot of Gorilla Tag systems will not be set up when start is called /*
 			/* Put code in OnGameInitialized to avoid null references */
 
+		
             Newtilla.Newtilla.OnJoinModded += OnModdedJoined;
             Newtilla.Newtilla.OnLeaveModded += OnModdedLeft;
         }
@@ -53,7 +54,7 @@ namespace GorillaTagModTemplateProject
 			/* Code here runs every frame when the mod is enabled */
 		}
 
-        /* This attribute tells Utilla to call this method when a modded room is joined */
+        /* This attribute tells Newtilla to call this method when a modded room is joined */
 
         void OnModdedJoined(string modeName)
         {
@@ -63,7 +64,7 @@ namespace GorillaTagModTemplateProject
 			inRoom = true;
 		}
 
-        /* This attribute tells Utilla to call this method when a modded room is left */
+        /* This attribute tells Newtilla to call this method when a modded room is left */
 
         void OnModdedLeft(string modeName)
         {

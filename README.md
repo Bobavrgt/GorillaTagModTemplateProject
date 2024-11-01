@@ -11,4 +11,4 @@
 ## DO NOT DO ANY OF THE FOLLOWING:
 - Do not put spaces in the project name, as it will prevent the mod from loading.
 - Do not remove ANY references unless you are replacing it with better ones.
-- 
+

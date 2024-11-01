@@ -9,11 +9,11 @@
 - Directory.Build.props: This file contains information about where dependencies are located. If you are getting CS024 (type could not be found) errors, GamePath is probably wrong.
 
 ## CHANGE LOG FROM GRAICC'S
-- The only thing I changed is adding Newtilla support instead of utilla
+- The only thing I changed is adding Newtilla support instead of utilla and netstandered2.1.
 
 ## DO NOT DO ANY OF THE FOLLOWING:
 - Do not put spaces in the project name, as it will prevent the mod from loading.
 - Do not remove ANY references unless you are replacing it with better ones.
 
 ## DISCALMER:
-This product is not affiliated with Another Axiom Inc. or its videogames Gorilla Tag and Orion Drift and is not endorsed or otherwise sponsored by Another Axiom. Portions of the materials contained herein are property of Another Axiom. ©2021 Another Axiom Inc.
+This product is not affiliated with Another Axiom Inc. or its videogames Gorilla Tag and Orion Drift and is not endorsed or otherwise sponsored by Another Axiom. Portions of the materials contained herein are property of Another Axiom. Â©2021 Another Axiom Inc.

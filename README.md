@@ -1,4 +1,4 @@
-# GorillaTagModTemplateProject ([ORIGINAL](https://github.com/Graicc/GorillaTagModTemplate)
+# GorillaTagModTemplateProject ([ORIGINAL](https://github.com/Graicc/GorillaTagModTemplate))
 
 ## Template INFO:
 - Plugin.cs: The main class of your mod. Most of your code should go here.

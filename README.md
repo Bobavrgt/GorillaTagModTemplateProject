@@ -8,6 +8,9 @@
 - MakeRelease.ps1: This script generates a MonkeModManager compatible release (named ModName-v.zip). You should use this to create builds that you share with others.
 - Directory.Build.props: This file contains information about where dependencies are located. If you are getting CS024 (type could not be found) errors, GamePath is probably wrong.
 
+## CHANGE LOG FROM GRAICC'S
+- The only thing I changed is adding Newtilla support instead of utilla
+
 ## DO NOT DO ANY OF THE FOLLOWING:
 - Do not put spaces in the project name, as it will prevent the mod from loading.
 - Do not remove ANY references unless you are replacing it with better ones.
